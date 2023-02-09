@@ -20,7 +20,7 @@ I created this simple app to calculate loan details. User can change the three r
 
 ![Alt text](public/images/appScreenShot1.png)
 
-![Alt text](public/images/appScreenShot1.png)
+![Alt text](public/images/appSC2.png)
 
 Sharing the whole architecture (mockup) in images as well as some screenshots.
 Thanks.
