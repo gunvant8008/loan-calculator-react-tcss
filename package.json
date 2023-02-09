@@ -1,6 +1,6 @@
 {
   "name": "02loan-calculator-react-tcss",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
