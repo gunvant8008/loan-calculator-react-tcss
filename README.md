@@ -16,6 +16,12 @@ I created this simple app to calculate loan details. User can change the three r
 2. Interest Rate %- number
 3. Tenure (Years)- number
 
+![Alt text](public/images/Loan%20Calculator.gif)
+
+![Alt text](public/images/appScreenShot1.png)
+
+![Alt text](public/images/appScreenShot1.png)
+
 Sharing the whole architecture (mockup) in images as well as some screenshots.
 Thanks.
 
