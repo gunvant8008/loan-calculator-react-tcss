@@ -16,13 +16,13 @@ I created this simple app to calculate loan details. User can change the three r
 2. Interest Rate %- number
 3. Tenure (Years)- number
 
-![Alt text](images/Loan%20Calculator.gif)
+![App demo](images/Loan%20Calculator.gif)
 
-![Alt text](images/appScreenShot1.png)
+![App Screenshot](images/appScreenShot1.png)
 
-![Alt text](images/appSC2.png)
+![App Screenshot](images/appSC2.png)
 
 Sharing the whole architecture (mockup) in images as well as some screenshots.
 Thanks.
 
-![App Architecture](<mages/Loan%20Calculator-Page-1.drawio%20(1).png>)
+![App Architecture](<images/Loan%20Calculator-Page-1.drawio%20(1).png>)
