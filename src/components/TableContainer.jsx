@@ -51,7 +51,7 @@ function ResultTable({ loan, data }) {
 const TableContainer = ({ loan, data }) => {
   console.log(loan)
   return (
-    <div className=" w-[60%] p-4  bg-slate-200 shadow-xl shadow-gray-700 rounded border-2 border-gray-500">
+    <div className=" p-4  bg-slate-200 shadow-xl shadow-gray-700 rounded border-2 border-gray-500">
       <ResultTable loan={loan} data={data} />
     </div>
   )

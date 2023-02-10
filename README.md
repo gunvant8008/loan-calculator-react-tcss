@@ -10,6 +10,8 @@ tags:
 
 ## Loan Calculator App With Charts & EMI Schedule
 
+🚀🚀[APP DEMO](https://gunvant8008.github.io/loan-calculator-react-tcss/)
+
 I created this simple app to calculate loan details. User can change the three required inputs by range slider.
 
 1. Loan Amount- number

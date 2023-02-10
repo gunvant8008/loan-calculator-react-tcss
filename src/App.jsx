@@ -17,18 +17,20 @@ function App() {
   // do calculations
   // console.log(loan)
   return (
-    <div className="w-[70vw] h-[full] m-auto flex flex-col items-center mt-5 p-4  bg-gradient-to-r from-slate-600 to-slate-300 shadow-xl shadow-black rounded">
-      <h1 className="text-center font-bold p-4 text-3xl text-white border-2 m-8 shadow-xl shadow-gray-700">
-        LOAN CALCULATOR APP
-      </h1>
+    <div className="flex flex-col items-center justify-center p-4  bg-gradient-to-r from-slate-600 to-slate-300 shadow-xl shadow-black rounded">
+      <div>
+        <h1 className="text-center font-bold p-4 text-lg md:text-3xl text-white border-2 m-8 shadow-xl shadow-gray-700">
+          LOAN CALCULATOR APP
+        </h1>
 
-      <InputContainer
-        ranges={{ amount, interest, tenure }}
-        setRanges={{ setAmount, setInterest, setTenure }}
-      />
-      <ResultContainer loan={loan} data={{ interest, tenure }} />
+        <InputContainer
+          ranges={{ amount, interest, tenure }}
+          setRanges={{ setAmount, setInterest, setTenure }}
+        />
+        <ResultContainer loan={loan} data={{ interest, tenure }} />
 
-      <EmiContainer loan={loan} />
+        <EmiContainer loan={loan} />
+      </div>
     </div>
   )
 }
