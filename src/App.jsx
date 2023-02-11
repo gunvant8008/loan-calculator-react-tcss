@@ -17,8 +17,8 @@ function App() {
   // do calculations
   // console.log(loan)
   return (
-    <div className="flex flex-col items-center justify-center p-4  bg-gradient-to-r from-slate-600 to-slate-300 shadow-xl shadow-black rounded">
-      <div>
+    <div className="flex flex-col items-center justify-center">
+      <div className="w-[400px] md:w-[800px]  p-4  bg-gradient-to-r from-slate-600 to-slate-300 shadow-xl shadow-black rounded">
         <h1 className="text-center font-bold p-4 text-lg md:text-3xl text-white border-2 m-8 shadow-xl shadow-gray-700">
           LOAN CALCULATOR APP
         </h1>

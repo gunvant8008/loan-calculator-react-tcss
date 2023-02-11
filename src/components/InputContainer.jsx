@@ -38,7 +38,7 @@ const InputContainer = ({ ranges, setRanges }) => {
   const { amount, interest, tenure } = ranges
   const { setAmount, setInterest, setTenure } = setRanges
   return (
-    <div className=" flex flex-col items-center p-8 shadow-lg gap-8 rounded-2xl bg-gray-300 backdrop-blur-[2px]">
+    <div className=" flex flex-col items-center p-8 m-8 shadow-lg gap-8 rounded-2xl bg-gray-300 backdrop-blur-[2px]">
       <Input
         title={"Loan Amount $"}
         dataPoints={["0", "$50k", "$100k", "$150k", "$200k", "$250k"]}

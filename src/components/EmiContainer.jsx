@@ -2,7 +2,7 @@ import React, { useState } from "react"
 
 function EmiTable({ loan }) {
   return (
-    <table className="bg-white w-[80%]">
+    <table className="bg-white">
       <thead className="bg-gray-800 text-white">
         <tr>
           <th className="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">
@@ -54,7 +54,7 @@ const EmiContainer = ({ loan }) => {
   const [emiSchedule, setEmiSchedule] = useState(false)
 
   return (
-    <div className="text-center p-5 flex flex-col gap-5 items-center justify-center m-auto w-[80%]">
+    <div className="text-center p-5 flex flex-col gap-5 items-center justify-center">
       <button
         className="bg-orange-700 text-yellow-100 font-bold p-2"
         onClick={() => setEmiSchedule(!emiSchedule)}
