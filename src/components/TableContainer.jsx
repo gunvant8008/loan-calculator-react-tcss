@@ -3,45 +3,53 @@ import React from "react"
 function ResultTable({ loan, data }) {
   console.log(loan)
   return (
-    <table className=" bg-gray-50 w-full">
+    <table className=" bg-gray-50 table-fixed w-full">
       <tbody>
         <tr className=" border-gray-400 border-2">
           <td className="bg-slate-600 text-white font-bold p-2 w-[50%]">
             Loan Amount
           </td>
-          <td className="text-right p-4">${loan.amount.toLocaleString()}</td>
+          <td className="text-right p-4 w-[50%]">
+            ${loan.amount.toLocaleString()}
+          </td>
         </tr>
         <tr className=" border-gray-400 border-2">
-          <td className="bg-slate-600 text-white font-bold p-2">Interest %</td>
-          <td className="text-right p-4">{Number(data.interest).toFixed(1)}</td>
+          <td className="bg-slate-600 text-white font-bold p-2 w-[50%]">
+            Interest %
+          </td>
+          <td className="text-right p-4 w-[50%]">
+            {Number(data.interest).toFixed(1)}
+          </td>
         </tr>
         <tr className=" border-gray-400 border-2">
-          <td className="bg-slate-600 text-white font-bold p-2">
+          <td className="bg-slate-600 text-white font-bold p-2 w-[50%]">
             Tenure- Months
           </td>
-          <td className="text-right p-4">{data.tenure * 12}</td>
+          <td className="text-right p-4 w-[50%]">{data.tenure * 12}</td>
         </tr>
         <tr className=" border-gray-400 border-2">
-          <td className="bg-slate-600 text-white font-bold p-2">
+          <td className="bg-slate-600 text-white font-bold p-2 w-[50%]">
             EMI- Monthly
           </td>
-          <td className="text-right p-4">
+          <td className="text-right p-4 w-[50%]">
             ${loan.installments[0].installment}
           </td>
         </tr>
         <tr className=" border-gray-400 border-2">
-          <td className="bg-slate-600 text-white font-bold p-2">
+          <td className="bg-slate-600 text-white font-bold p-2 w-[50%]">
             Total Interest
           </td>
-          <td className="text-right p-4">
+          <td className="text-right p-4 w-[50%]">
             ${loan.interestSum.toLocaleString()}
           </td>
         </tr>
         <tr className=" border-gray-400 border-2">
-          <td className="bg-slate-600 text-white font-bold p-2">
+          <td className="bg-slate-600 text-white font-bold p-2 w-[50%]">
             Total Payment- Loan+Interest
           </td>
-          <td className="text-right p-4">${loan.sum.toLocaleString()}</td>
+          <td className="text-right p-4 w-[50%]">
+            ${loan.sum.toLocaleString()}
+          </td>
         </tr>
       </tbody>
     </table>

@@ -2,7 +2,7 @@ import React, { useState } from "react"
 
 function EmiTable({ loan }) {
   return (
-    <table className="bg-white">
+    <table className="bg-white table-fixed">
       <thead className="bg-gray-800 text-white">
         <tr>
           <th className="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">
